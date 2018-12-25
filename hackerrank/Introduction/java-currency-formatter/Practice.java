@@ -20,4 +20,5 @@ Output Format
 On the first line, print US: u where  is  formatted for US currency. 
 On the second line, print India: i where  is  formatted for Indian currency. 
 On the third line, print China: c where  is  formatted for Chinese currency. 
-On the fourth line, print France: f, where  is  formatted for French currency.*/
+On the fourth line, print France: f, where  is  formatted for French currency.
+*/
