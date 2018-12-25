@@ -12,7 +12,8 @@ public class Practice {
     rightNow.set(year, month - 1, day);
 
     System.out.println(rightNow.getTime());
-    return rightNow.getDisplayName(Calendar.DAY_OF_WEEK, Calendar.LONG, Locale.ENGLISH);
+    return rightNow.getDisplayName(Calendar.DAY_OF_WEEK, Calendar.LONG, Locale.ENGLISH)
+                   .toUpperCase();
   }
 
   public static void main(String[] args) {
