@@ -7,12 +7,9 @@ public class Practice {
     /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
     Scanner scanner = new Scanner(System.in);
     Integer n = scanner.nextInt();
-    String space = scanner.nextLine();
-    String input = scanner.nextLine();
-    String[] spaceArray = input.split(" ");
     int[] array = new int[n];
-    for (int j = 0; j < n; j++) {
-      array[j] = Integer.parseInt(spaceArray[j]);
+    for(int j = 0; j < n; j++){
+      array[j] = scanner.nextInt(); 
     }
 
     int result = 0;
